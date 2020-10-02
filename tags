@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PKCS1_OAEP	rsa_py.py	/^from Crypto.Cipher import PKCS1_OAEP$/;"	i
+RSA	rsa_py.py	/^from Crypto.PublicKey import RSA$/;"	i
+aes_d	en_decription.py	/^aes_d = pyaes.AESModeOfOperationCTR(password, pyaes.Counter(iv))$/;"	v
+aes_e	en_decription.py	/^aes_e = pyaes.AESModeOfOperationCTR(password, pyaes.Counter(iv))$/;"	v
+ciphertext	en_decription.py	/^ciphertext = aes_e.encrypt(data)$/;"	v
+ciphertext	rsa_py.py	/^ciphertext = encryptor.encrypt(data)$/;"	v
+codecs	en_decription.py	/^import codecs$/;"	i
+codecs	rsa_py.py	/^import codecs$/;"	i
+data	en_decription.py	/^data = 'hello world 1818'$/;"	v
+data	rsa_py.py	/^data = b'hello world 18, ' * 13 # (224 bytes)$/;"	v
+decryptor	rsa_py.py	/^decryptor = PKCS1_OAEP.new(private_key)$/;"	v
+encryptor	rsa_py.py	/^encryptor = PKCS1_OAEP.new(public_key)$/;"	v
+iv	en_decription.py	/^iv = secrets.randbits(128)$/;"	v
+password	en_decription.py	/^password = b'0123456789abcdef' # any 16-byte string, 128-bit key (16 bytes)$/;"	v
+plaintext	en_decription.py	/^plaintext = aes_d.decrypt(ciphertext)$/;"	v
+plaintext	rsa_py.py	/^plaintext = decryptor.decrypt(ciphertext)$/;"	v
+private_key	rsa_py.py	/^private_key = RSA.generate(2048)    # generate 2048-bit RSA key pair (public\/private)$/;"	v
+public_key	rsa_py.py	/^public_key = private_key.publickey()$/;"	v
+pyaes	en_decription.py	/^import pyaes$/;"	i
+secrets	en_decription.py	/^import secrets$/;"	i
